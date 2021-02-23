@@ -19,3 +19,16 @@
 .usermotto {
   margin-top: 200px;
 }
+.swiper{width:100%;height: calc(100vw*950/2000);}
+.swiper-image{display:block;width: 100%;height:100%;}
+/* .contain/er{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;} */
+.icon_mt20{margin-top:-20vw;}
+.icon-box{width:25%; flex-direction: column;align-items: center; justify-content: space-between; box-sizing: border-box;display: flex;padding-bottom:5vw;}
+.box{display: -webkit-flex; /* Safari */display: flex;flex-wrap: wrap;justify-content:flex-start; flex-grow:1;}

@@ -1,13 +1,50 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="swiper-image" width="100%"></image>
+          </swiper-item>
+        </block>
+</swiper>
+<view class="container icon_mt20">
+  <view class="box">  
+
+    <view class="icon-box">
+      <icon class="icon-box-img" type="success" size="60" color="#C9C9C9"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">普通警告</view>
+      </view>
+    </view>
+    <view class="icon-box">
+      <icon class="icon-box-img" type="success" size="60" color="#C9C9C9"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">普通警告</view>
+      </view>
+    </view>
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
+    
   </view>
 </view>
