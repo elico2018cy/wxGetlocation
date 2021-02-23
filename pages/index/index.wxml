@@ -6,37 +6,32 @@
           </swiper-item>
         </block>
 </swiper>
+<!--begin icon-->
 <view class="container icon_mt20">
   <view class="box">  
 
     <view class="icon-box">
-      <icon class="icon-box-img" type="success" size="70" color="#C9C9C9"></icon>
+      <icon class="iconfont icon-weichuli1" style="color:#f5800e;"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">普通警告</view>
+        <view class="icon-box-title">未处理</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="success" size="70" color="#C9C9C9"></icon>
+      <icon class="iconfont icon-weichulichushi" style="color:#1265d5;"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">普通警告</view>
+        <view class="icon-box-title">处理中</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
+      <icon class="iconfont icon-yiwanchengicon" style="color:#299f42;"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
+        <view class="icon-box-title">已完成</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
+      <icon class="iconfont icon-daipingjia2" style="color:#f83559;"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
-      </view>
-    </view>
-    <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
-      <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
+        <view class="icon-box-title">待评价</view>
       </view>
     </view>
     <view class="icon-box">
@@ -57,8 +52,13 @@
         <view class="icon-box-title">强烈警告</view>
       </view>
     </view>
-
-
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="70"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
 
   </view>
 </view>
+<!--end icon-->
