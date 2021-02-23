@@ -7,12 +7,41 @@
     "pages/info/info",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "我的维修",
+      "iconPath": "images/repair.png",
+      "selectedIconPath": "images/repair1.png"
+    },
+    {
+      "pagePath": "pages/notice/notice",
+      "text": "服务中心",
+      "iconPath": "images/notice.png",
+      "selectedIconPath": "images/notice1.png"
+    },
+    {
+      "pagePath": "pages/center/center",
+      "text": "服务中心",
+      "iconPath": "images/center.png",
+      "selectedIconPath": "images/center1.png"
+    },
+    {
+      "pagePath": "pages/info/info",
+      "text": "服务中心",
+      "iconPath": "images/info.png",
+      "selectedIconPath": "images/info1.png"
+    }
+  ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#1558f1",
     "navigationBarTitleText": "demo",
     "navigationBarTextStyle":"white"
   },
+
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

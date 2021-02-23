@@ -10,41 +10,55 @@
   <view class="box">  
 
     <view class="icon-box">
-      <icon class="icon-box-img" type="success" size="60" color="#C9C9C9"></icon>
+      <icon class="icon-box-img" type="success" size="70" color="#C9C9C9"></icon>
       <view class="icon-box-ctn">
         <view class="icon-box-title">普通警告</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="success" size="60" color="#C9C9C9"></icon>
+      <icon class="icon-box-img" type="success" size="70" color="#C9C9C9"></icon>
       <view class="icon-box-ctn">
         <view class="icon-box-title">普通警告</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <icon class="icon-box-img" type="warn" size="70"></icon>
       <view class="icon-box-ctn">
         <view class="icon-box-title">强烈警告</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <icon class="icon-box-img" type="warn" size="70"></icon>
       <view class="icon-box-ctn">
         <view class="icon-box-title">强烈警告</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <icon class="icon-box-img" type="warn" size="70"></icon>
       <view class="icon-box-ctn">
         <view class="icon-box-title">强烈警告</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="60"></icon>
+      <icon class="icon-box-img" type="warn" size="70"></icon>
       <view class="icon-box-ctn">
         <view class="icon-box-title">强烈警告</view>
       </view>
     </view>
-    
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="70"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
+    <view class="icon-box">
+      <icon class="icon-box-img" type="warn" size="70"></icon>
+      <view class="icon-box-ctn">
+        <view class="icon-box-title">强烈警告</view>
+      </view>
+    </view>
+
+
+
   </view>
 </view>
