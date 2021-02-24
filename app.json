@@ -17,7 +17,7 @@
     },
     {
       "pagePath": "pages/notice/notice",
-      "text": "服务中心",
+      "text": "服务公告",
       "iconPath": "images/notice.png",
       "selectedIconPath": "images/notice1.png"
     },
@@ -29,7 +29,7 @@
     },
     {
       "pagePath": "pages/info/info",
-      "text": "服务中心",
+      "text": "我的",
       "iconPath": "images/info.png",
       "selectedIconPath": "images/info1.png"
     }

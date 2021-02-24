@@ -1,2 +1,10 @@
 /* pages/repair/repair.wxss */
 .banner{width:100%;height: calc(100vw*950/2000);display:block;}
+.items-list{width: 85%;margin:5% 5% 5% 10%;}
+.pro-item{overflow: hidden;}
+.pro-left{ float: left;width:30%;margin-right:3%;}
+.pro-img{width:160rpx;height:160rpx;}
+.pro-right{float:right;width:67%;}
+.pro-title{color:#2f3135;font-size:34rpx;line-height:1;font-weight: bold;padding:5% 0 4% 0;}
+.pro-text{color:#666;font-size:30rpx;}
+.item-top{margin-top:40rpx;}

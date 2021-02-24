@@ -1,12 +1,41 @@
 <!--pages/repair/repair.wxml-->
-<image class="banner" src="/images/img1.jpg" />
+<image class="banner" src="/images/img4.jpg"/>
 <!-- wx:for="repairlist" -->
   <view  class="items-list">
-    <view class='pro-item'>
-      <imgage class="" src="/images/home1.jpg"/>
+    <view class="pro-item" >
+      <view class="pro-left">
+        <image class="pro-img" src="/images/icon_js.png"/>
+        </view>
+        <view class="pro-right">
+          <view class="pro-title">寄修服务</view>
+          <text class="pro-text">足不出户，轻松享修</text>
+        </view>
     </view>
-    <view class="pro-body">
-      <view class="pro-title">sdfdfsdf</view>
-      <text class="por-text">cdsdads</text>
+    <view class="pro-item item-top">
+      <view class="pro-left">
+        <image class="pro-img" src="/images/icon_search.png"/>
+        </view>
+        <view class="pro-right">
+          <view class="pro-title">寄修服务</view>
+          <text class="pro-text">足不出户，轻松享修</text>
+        </view>
+    </view>
+    <view class="pro-item item-top">
+      <view class="pro-left">
+        <image class="pro-img" src="/images/icon_yy.png"/>
+        </view>
+        <view class="pro-right">
+          <view class="pro-title">寄修查询</view>
+          <text class="pro-text">查询寄修产品进度</text>
+        </view>
+    </view>
+    <view class="pro-item item-top">
+      <view class="pro-left">
+        <image class="pro-img" src="/images/icon_yycx.png"/>
+        </view>
+        <view class="pro-right">
+          <view class="pro-title">预约查询</view>
+          <text class="pro-text">查询寄修产品进度</text>
+        </view>
     </view>
   </view> 
