@@ -7,58 +7,38 @@
         </block>
 </swiper>
 <!--begin icon-->
-<view class="container icon_mt20">
+<view class="contain icon_mt20">
   <view class="box">  
 
     <view class="icon-box">
-      <icon class="iconfont icon-weichuli1" style="color:#f5800e;"></icon>
+      <icon class="iconfont icon-weichuli1 img_c1"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">未处理</view>
+        <view class="icon_text">未处理</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="iconfont icon-weichulichushi" style="color:#1265d5;"></icon>
+      <icon class="iconfont icon-weichulichushi img_c2"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">处理中</view>
+        <view class="icon_text">处理中</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="iconfont icon-yiwanchengicon" style="color:#299f42;"></icon>
+      <icon class="iconfont icon-yiwanchengicon img_c3"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">已完成</view>
+        <view class="icon_text">已完成</view>
       </view>
     </view>
     <view class="icon-box">
-      <icon class="iconfont icon-daipingjia2" style="color:#f83559;"></icon>
+      <icon class="iconfont icon-daipingjia2 img_c4"></icon>
       <view class="icon-box-ctn">
-        <view class="icon-box-title">待评价</view>
+        <view class="icon_text">待评价</view>
       </view>
     </view>
-    <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
-      <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
-      </view>
-    </view>
-    <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
-      <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
-      </view>
-    </view>
-    <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
-      <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
-      </view>
-    </view>
-    <view class="icon-box">
-      <icon class="icon-box-img" type="warn" size="70"></icon>
-      <view class="icon-box-ctn">
-        <view class="icon-box-title">强烈警告</view>
-      </view>
-    </view>
-
+   
   </view>
 </view>
 <!--end icon-->
+
+<view class="icon_mt20">
+<button class="icon_button" style="width:90%;" bindtap='myclick'>送修人</button>
+</view>

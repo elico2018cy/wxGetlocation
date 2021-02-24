@@ -1,2 +1,5 @@
 <!--pages/repair/repair.wxml-->
-<text>pages/repair/repair.wxml</text>
+<image class="banner" src="/images/img1.jpg" />
+<view>
+  
+</view>

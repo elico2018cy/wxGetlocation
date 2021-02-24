@@ -11,6 +11,14 @@ Page({
   interval: 2000,
   duration: 500
   },
+  // //跳转页面
+  // myclick: function(){
+  //   wx.switchTab({url:'../repair/repair,'})
+  // }
+
+  myclick: function(){  
+      wx.navigateTo({url: '/pages/repair/repair',})
+  },
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({

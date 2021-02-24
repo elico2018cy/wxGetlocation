@@ -1,1 +1,2 @@
 /* pages/repair/repair.wxss */
+.banner{width:100%;height: calc(100vw*950/2000);display:block;}
