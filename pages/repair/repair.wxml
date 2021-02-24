@@ -1,5 +1,12 @@
 <!--pages/repair/repair.wxml-->
 <image class="banner" src="/images/img1.jpg" />
-<view>
-  
-</view>
+<!-- wx:for="repairlist" -->
+  <view  class="items-list">
+    <view class='pro-item'>
+      <imgage class="" src="/images/home1.jpg"/>
+    </view>
+    <view class="pro-body">
+      <view class="pro-title">sdfdfsdf</view>
+      <text class="por-text">cdsdads</text>
+    </view>
+  </view> 
